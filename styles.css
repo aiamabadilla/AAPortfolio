@@ -286,6 +286,10 @@ p {
   margin: 50px;
 }
 
+.contact__form.active {
+  display: none;
+}
+
 .contact__form > * {
   width: 700px;
 }
@@ -308,6 +312,7 @@ p {
   padding: 40px 0;
   border: none;
   color: #aaaaaa;
+  cursor: pointer;
   background-color: #000;
   font-size: 20px;
   text-transform: uppercase;
